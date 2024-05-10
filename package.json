@@ -1,0 +1,13 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces": {
+    "packages": ["./common", "./about", "./home"]
+  },
+  "dependencies": {
+    "body-parser": "1.1.0"
+  },
+  "license": "MIT",
+  "private": true
+}
